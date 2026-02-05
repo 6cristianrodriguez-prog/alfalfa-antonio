@@ -4,60 +4,116 @@
   <meta charset="UTF-8">
   <title>Alfalfa Antonio García</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f1ec;
       margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(180deg, #e9efe4, #f6f4ef);
       padding: 20px;
     }
+
     .card {
-      max-width: 500px;
-      margin: auto;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 720px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
+
     h1 {
-      color: #3b5d3b;
+      color: #2f4f2f;
       text-align: center;
+      margin-bottom: 10px;
     }
+
+    h2 {
+      text-align: center;
+      font-weight: normal;
+      color: #555;
+      margin-top: 0;
+    }
+
     p {
-      line-height: 1.5;
+      line-height: 1.6;
+      font-size: 16px;
     }
-    .price {
-      font-weight: bold;
-      margin-top: 10px;
-    }
-    .contact {
-      margin-top: 20px;
-      text-align: center;
+
+    .prices {
+      margin: 20px 0;
       font-size: 18px;
+    }
+
+    .prices div {
+      margin-bottom: 8px;
+    }
+
+    .cta {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      background: #25d366;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .whatsapp:hover {
+      background: #1ebe5d;
+    }
+
+    .footer {
+      margin-top: 25px;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
     }
   </style>
 </head>
+
 <body>
 
   <div class="card">
     <h1>Antonio García</h1>
-    <p><strong>Venta y distribución de forrajes</strong></p>
+    <h2>Venta y distribución de forrajes</h2>
 
     <p>
-      Fardos de alfalfa <strong>Premium</strong> y de <strong>Segunda calidad</strong><br>
-      Envíos a todo el país, especialmente zona 25 de Mayo – La Pampa.
+      Fardos de alfalfa <strong>Premium</strong> y de <strong>Segunda calidad</strong>, 
+      ideales para productores ganaderos, campo y eventos.
     </p>
-
-    <p class="price">🌾 Premium: $10.000</p>
-    <p class="price">🌾 Segunda calidad: $8.000</p>
 
     <p>
-      Disponibles por mayor y menor.<br>
-      Envíos coordinados, tarifas por kilómetro, flete propio o retiro directo.
+      Atención en todo el país, con base en <strong>25 de Mayo, La Pampa</strong>.
+      Venta por mayor y menor.
     </p>
 
-    <div class="contact">
-      📞 Contacto: <strong>299 607 6062</strong>
+    <div class="prices">
+      <div>🌾 <strong>Premium:</strong> $10.000</div>
+      <div>🌾 <strong>Segunda calidad:</strong> $8.000</div>
+    </div>
+
+    <p>
+      Envíos coordinados · Tarifas por kilómetro ·  
+      Flete propio o retiro directo.
+    </p>
+
+    <div class="cta">
+      <a class="whatsapp"
+         href="https://wa.me/5492996076062"
+         target="_blank">
+        📲 Consultar por WhatsApp
+      </a>
+    </div>
+
+    <div class="footer">
+      📞 Teléfono: 299 607 6062
     </div>
   </div>
 
